@@ -11,7 +11,7 @@ export default function HomePage() {
       }}
     >
       <div className="relative">
-        <img
+        <Image
           src="/images/blog.jpeg" 
           alt="Food Blog Banner"
           className="w-full h-auto"
