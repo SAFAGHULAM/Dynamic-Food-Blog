@@ -26,9 +26,9 @@ export default function PostPage({ params }: { params: Promise<{ slug: string }>
         <Image
           src={post.image}
           alt={post.title}
-          width={200}
-          height={200}
-          className="w-full h-auto object-cover rounded-md"
+          width={800}
+          height={800}
+          className="h-auto object-cover rounded-md"
         />
       </div>
 
