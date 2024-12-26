@@ -14,6 +14,8 @@ export default function HomePage() {
         <Image
           src="/images/blog.jpeg" 
           alt="Food Blog Banner"
+          width={500}
+          height={500}
           className="w-full h-auto"
         />
       </div>

@@ -93,8 +93,8 @@ export const posts = [
     },
     {
       id: '4',
-      title: 'Vegan Burger',
-      date: '2024-12-16',
+      title: 'Vegan Burger',                                 
+      date: '2024-12-16',          
       slug: 'vegan-burger',
       image: '/images/burger.jpeg',
       description: 'A delicious vegan burger recipe with a homemade patty!',

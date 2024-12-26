@@ -1,7 +1,22 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-export default function PostCard({ post }: { post: any }) {
+interface Post {
+  id: string;
+  title: string;
+  date: string;
+  slug: string;
+  image: string;
+  description: string;
+  ingredients: string[];
+  instructions: string[];
+  prepTime: string;
+  cookTime: string;
+  servings: string;
+  content: string;
+}
+
+export default function PostCard({ post }: { post: Post }) {
   return (
     <div className="border rounded-lg shadow-md p-4">
       {/* Display Image */}
